@@ -1,17 +1,27 @@
-.navbar {
+.header {
+    display: grid;
+    place-items: center;
     position: absolute;
     top: 20px; 
-    left: 100px; 
+    width: 98vw;
+}
+
+.navbar {
+    height: auto;
+    border-radius: 25px;
+    backdrop-filter: blur(24px);
+    padding: 10px 50px;
+    z-index: 30; 
+    margin: auto;
+    width: 900px;
+}
+
+.navbar-content {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: auto;
-    border-radius: 50px;
-    backdrop-filter: blur(12px);
-    padding: 10px 50px;
-    z-index: 30; 
-    margin: 0 auto;
-    width: max-content;
+    top: 20px;
 }
 
 .list {
@@ -31,6 +41,6 @@ a {
 
 .me {
     aspect-ratio: 1 / 1;
-    width: 90px;
+    width: 85px;
     border-radius: 50%;
 }
