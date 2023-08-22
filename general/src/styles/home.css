@@ -51,5 +51,6 @@
 
 .im span {
     display: inline;
+    margin: 0;
     font-family: 'Bungee';
 }

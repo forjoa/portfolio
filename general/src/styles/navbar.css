@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     position: absolute;
-    top: 20px; 
+    top: 20px;
     width: 98vw;
 }
 
@@ -11,7 +11,7 @@
     border-radius: 25px;
     backdrop-filter: blur(24px);
     padding: 10px 50px;
-    z-index: 30; 
+    z-index: 30;
     margin: auto;
     width: 900px;
 }
@@ -37,6 +37,20 @@
 a {
     text-decoration: none;
     color: white;
+    padding-bottom: 5px;
+    background:
+        linear-gradient(to right,
+            #BF93B8,
+            #8980BF,
+            #123159);
+    background-size: 0 5px, 100% 5px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 300ms;
+}
+
+a:hover {
+    background-size: 100% 5px, 0 5px;
 }
 
 .me {

@@ -15,7 +15,7 @@ const Home = () => {
     const sentence = "Y soy desarrollador web".split("")
 
     const hover = {
-        scale: 1.2,
+        scale: 1.5,
         color: '#465E73',
         cursor: 'pointer'
     }
@@ -29,13 +29,16 @@ const Home = () => {
                         Hola, mi nombre es Joaquin
                     </h2>
                     <div className='title im'>
-                        {sentence.map((letter, index) => {
-                            return (
-                                <motion.span whileHover={hover} key={index}>
-                                    {letter}
-                                </motion.span>
-                            )
-                        })}
+                        {sentence.map((letter, index) => (
+                            <motion.span
+                                whileHover={hover}
+                                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                                onClick={() => console.log('enter')}
+                                key={index}
+                            >
+                                {letter}
+                            </motion.span>
+                        ))}
                     </div>
                 </motion.div>
 
@@ -43,25 +46,6 @@ const Home = () => {
                 <div className="img"></div>
             </div>
             <Projects />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam reprehenderit illo saepe, praesentium deserunt sed sequi. Magnam saepe, aspernatur tempora minus dolor aliquam nihil vitae minima consequatur nam. Nostrum.</p>
-                        
         </>
     )
 }
