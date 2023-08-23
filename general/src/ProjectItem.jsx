@@ -7,8 +7,12 @@ const ProjectItem = ({ props }) => {
 
     const languagesArray = Object.values(props.languages)
 
+    const openRepository = (link) => {
+        window.open(link)
+    }
+
     return (
-        <div className="card" style={backgroundImageStyle}>
+        <div className="card" style={backgroundImageStyle} onClick={() => openRepository(props.repository)}>
             <div className="card__content">
                 <p className="card__title">{props.title}</p>
                 <p className="card__description">{props.description}</p>

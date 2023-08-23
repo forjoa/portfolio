@@ -2,6 +2,7 @@ import './styles/home.css'
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Projects from './Projects'
+import Footer from './Footer'
 
 const Home = () => {
     const ref = useRef(null)
@@ -46,6 +47,7 @@ const Home = () => {
                 <div className="img"></div>
             </div>
             <Projects />
+            <Footer />
         </>
     )
 }
