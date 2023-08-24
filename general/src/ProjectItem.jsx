@@ -1,6 +1,12 @@
 import './styles/projectitem.css'
+import AOS from 'aos'
+import { useEffect } from 'react'
 
 const ProjectItem = ({ props }) => {
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     const backgroundImageStyle = {
         backgroundImage: `url(${props.image})`
     }
@@ -12,7 +18,7 @@ const ProjectItem = ({ props }) => {
     }
 
     return (
-        <div className="card" style={backgroundImageStyle} onClick={() => openRepository(props.repository)}>
+        <div className="card" style={backgroundImageStyle} onClick={() => openRepository(props.repository)} data-aos="zoom-in-down">
             <div className="card__content">
                 <p className="card__title">{props.title}</p>
                 <p className="card__description">{props.description}</p>

@@ -3,8 +3,15 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Projects from './Projects'
 import Footer from './Footer'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     const ref = useRef(null)
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -23,7 +30,7 @@ const Home = () => {
 
     return (
         <>
-            <div ref={ref} className="general-home">
+            <div ref={ref} className="general-home" data-aos="zoom-in-down">
 
                 <motion.div className='title container' style={{ y: textY }}>
                     <h2 className="title name">
@@ -43,8 +50,8 @@ const Home = () => {
                     </div>
                 </motion.div>
 
-                <div className="full-img" style={{ y: backgroundY }}></div>
-                <div className="img"></div>
+                <div className="full-img" style={{ y: backgroundY }} data-aos="zoom-in-down"></div>
+                <div className="img" data-aos="zoom-in-down"></div>
             </div>
             <Projects />
             <Footer />
