@@ -20,7 +20,7 @@ const NavBar = () => {
                     />
                     <ul className='list'>
                         <li>
-                            <Link to="/home">Inicio</Link>
+                            <Link to="/">Inicio</Link>
                         </li>
                         <li>
                             <Link to="/about">Sobre mí</Link>
