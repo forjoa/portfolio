@@ -8,7 +8,8 @@
     gap: 30px;
 }
 
-.section-about {
+.section-about,
+.learning {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
