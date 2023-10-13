@@ -1,6 +1,11 @@
 :root {
+  --white: #fff;
   --light-grey: rgba(233, 233, 233, 0.75);
   --black: black;
+  --red: #f00;
+  --blue: #00f;
+  --green: rgb(0, 165, 0);
+  --yellow: #ff0;
 }
 
 body {

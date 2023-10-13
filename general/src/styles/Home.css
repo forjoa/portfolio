@@ -1,0 +1,21 @@
+.consola {
+    border: 1.7px solid var(--black);
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: -7px 7px 0px var(--black);
+    padding: 30px;
+}
+
+.consola-content {
+    border: 1.7px solid var(--black);
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.consola-content h1 {
+    font-size: 48px;
+}
