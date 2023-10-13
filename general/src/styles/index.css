@@ -1,7 +1,16 @@
 body {
   margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   scroll-behavior: smooth;
   font-family: PP Neue Montreal;
+}
+
+#root {
+  width: 1000px;
+  max-width: 1000px;
 }
 
 h1,
@@ -16,6 +25,7 @@ h6 {
 ul {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 a {
