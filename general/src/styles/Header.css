@@ -6,20 +6,29 @@ header {
     margin-top: 20px;
 }
 
-nav, ul {
+nav,
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 nav {
-    border: 1.7px solid black;
+    border: 1.7px solid var(--black);
     border-radius: 30px;
-    box-shadow: -7px 7px 0 black;
+    box-shadow: -7px 7px 0 var(--black);
 }
 
 .panda-icon {
     width: 55px;
+}
+
+.panda-icon-a {
+    padding: 0;
+}
+
+.panda-icon-a:hover {
+    background: transparent;
 }
 
 .header-list {
@@ -28,4 +37,10 @@ nav {
 
 a {
     padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+a:hover {
+    background: linear-gradient(45deg, rgba(233, 233, 233, 0.2) 5%, rgba(233, 233, 233, 0.9) 98%);
 }
