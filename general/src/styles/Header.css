@@ -12,10 +12,20 @@ nav, ul {
     align-items: center;
 }
 
+nav {
+    border: 1.7px solid black;
+    border-radius: 30px;
+    box-shadow: -7px 7px 0 black;
+}
+
 .panda-icon {
     width: 55px;
 }
 
 .header-list {
     display: flex;
+}
+
+a {
+    padding: 10px 20px;
 }
