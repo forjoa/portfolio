@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 .consola {
     border: 1.7px solid var(--black);
     border-radius: 30px;
@@ -18,4 +21,91 @@
 
 .consola-content h1 {
     font-size: 48px;
+}
+
+.controller {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.layout {
+    display: grid;
+    grid:
+        ". top ." 1fr "left . right" 1fr ". down ." 1fr / 1fr 1fr 1fr;
+}
+
+.top, .down {
+    background-color: var(--light-grey);
+    height: 80px;
+    width: 55px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.left, .right {
+    width: 80px;
+    height: 55px;
+    background-color: var(--light-grey);
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.top {
+    grid-area: top;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+}
+
+.down {
+    grid-area: down;
+}
+
+.triangle {
+    background-color: var(--green);
+}
+
+.circle {
+    background-color: var(--red);
+}
+
+.x {
+    background-color: var(--blue);
+}
+
+.square {
+    background-color: var(--pink);
+}
+
+.top, .down, .left, .right {
+    border: 1.7px solid var(--black);
+    transition: all .4s ease;
+}
+
+.top:hover, .down:hover, .left:hover, .right:hover{
+    cursor: pointer;
+    box-shadow: -7px 7px 0px var(--black);
+}
+
+.retro {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 54px;
+    color: var(--light-grey);
+}
+
+.modern {
+    font-family: 'Gloock', serif;
+    color: var(--light-grey);
+    text-shadow: 0px 0px 40px var(--light-grey);
 }

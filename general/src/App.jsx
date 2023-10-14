@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 // components
 import Home from './components/Home.jsx'
-import About from './components/Header.jsx'
+import About from './components/About.jsx'
 
 function App() {
 

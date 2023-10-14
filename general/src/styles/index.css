@@ -2,10 +2,10 @@
   --white: #fff;
   --light-grey: rgba(233, 233, 233, 0.75);
   --black: black;
-  --red: #f00;
-  --blue: #00f;
-  --green: rgb(0, 165, 0);
-  --yellow: #ff0;
+  --red: rgb(255, 102, 102);
+  --blue: rgb(124, 178, 232);
+  --green: rgb(64, 226, 160);
+  --pink: rgb(255, 105, 248);
 }
 
 body {
