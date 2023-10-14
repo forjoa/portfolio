@@ -11,6 +11,27 @@ import languagesInfo from './languagesInfo.js'
 
 const projects = [
     {
+        image: CodeMatch,
+        title: 'Codematch',
+        description: 'Mi trabajo final de grado, un sitio web donde los desarrolladores puedan mostrar sus trabajos, y los usuarios puedan contactar con ellos directamente. Aún se encuentra en construcción.',
+        languages: {
+            react: languagesInfo.react,
+            node: languagesInfo.node,
+            sql: languagesInfo.sql,
+        },
+        repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
+    },
+    {
+        image: Dictionary,
+        title: 'Programming Dictionary',
+        description: 'Un dictionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
+        languages: {
+            rect: languagesInfo.react,
+            css: languagesInfo.css
+        },
+        repository: 'https://dictionary-cyan-eight.vercel.app/'
+    },
+    {
         image: ToDo,
         title: 'To-Do List Web',
         description: 'Web app hecha con React.js, Node.js y SQL. Realizada para almacenar tareas con estados como "Completada" y "No completada".',
@@ -31,27 +52,6 @@ const projects = [
             js: languagesInfo.js,
         },
         repository: 'https://github.com/forjoa/app-calculator/tree/main/tip-calculator-app-main'
-    },
-    {
-        image: Dictionary,
-        title: 'Programming Dictionary',
-        description: 'Un dictionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
-        languages: {
-            rect: languagesInfo.react,
-            css: languagesInfo.css
-        },
-        repository: 'https://dictionary-cyan-eight.vercel.app/'
-    },
-    {
-        image: CodeMatch,
-        title: 'Codematch',
-        description: 'Mi trabajo final de grado, un sitio web donde los desarrolladores puedan mostrar sus trabajos, y los usuarios puedan contactar con ellos directamente. Aún se encuentra en construcción.',
-        languages: {
-            react: languagesInfo.react,
-            node: languagesInfo.node,
-            sql: languagesInfo.sql,
-        },
-        repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
     },
     {
         image: Marvel,
