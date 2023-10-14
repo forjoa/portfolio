@@ -39,8 +39,8 @@
 .top,
 .down {
     background-color: var(--light-grey);
-    height: 80px;
-    width: 55px;
+    height: 100px;
+    width: 75px;
     display: grid;
     place-items: center;
     margin: auto;
@@ -49,8 +49,8 @@
 
 .left,
 .right {
-    width: 80px;
-    height: 55px;
+    width: 100px;
+    height: 75px;
     background-color: var(--light-grey);
     display: grid;
     place-items: center;
@@ -145,7 +145,7 @@
     .consola {
         margin: 50px auto;
         width: 95%;
-        transform: translateX(7px);
+        transform: translateX(3.5px);
     }
 
     .consola-content {

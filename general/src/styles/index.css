@@ -2,6 +2,7 @@
   --white: #fff;
   --light-grey: rgba(233, 233, 233, 0.75);
   --grey: #ccc;
+  --dark-grey: #969696;
   --black: black;
   --red: rgb(255, 102, 102);
   --blue: rgb(124, 178, 232);
@@ -76,4 +77,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 900px) {
+    body {
+      justify-content: start;
+    }
 }

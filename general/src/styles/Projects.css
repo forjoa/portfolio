@@ -1,0 +1,66 @@
+.projects {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project {
+    width: 100%;
+    border: 1.7px solid var(--black);
+    border-radius: 30px;
+    box-shadow: -7px 7px 0px var(--black);
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project p {
+    color: var(--dark-grey);
+}
+
+.project-img {
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    transform: translateY(30px);
+    transition: all .3s;
+}
+
+.project:hover img {
+    transform: translateY(0px);
+}
+
+.project-lang {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.project-lang div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 900px) {
+    .projects {
+        width: 95%;
+    }
+
+    .project {
+        transform: translateX(3.5px);
+    }
+
+    .project img {
+        transform: translateY(0px);
+    }
+
+    .project-img {
+        width: 100%;
+    }
+}
