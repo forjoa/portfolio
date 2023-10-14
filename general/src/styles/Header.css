@@ -73,6 +73,7 @@ a:hover {
         border: 1.7px solid var(--black);
         border-radius: 30px;
         box-shadow: -7px 7px 0px var(--black);
+        background-color: var(--white);
     }
 
     .panda-icon-a span {
