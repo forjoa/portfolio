@@ -8,6 +8,10 @@
   --pink: rgb(255, 105, 248);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   width: 100%;

@@ -7,23 +7,23 @@ const Console = () => {
             <div className="consola-content">
                 <h1>I make web applications, <br/>web design & <span className='retro'>retro</span> || <span className='modern'>modern</span> style</h1>
             </div>
-            <div class="controller">
-                <section class="layout">
-                    <div class="top"><IconArrowBigUpFilled /></div>
-                    <div class="left"><IconArrowBigLeftFilled /></div>
-                    <div class="right"><IconArrowBigRightFilled /></div>
-                    <div class="down"><IconArrowBigDownFilled /></div>
+            <div className="controller">
+                <section className="layout">
+                    <div className="top"><IconArrowBigUpFilled /></div>
+                    <div className="left"><IconArrowBigLeftFilled /></div>
+                    <div className="right"><IconArrowBigRightFilled /></div>
+                    <div className="down"><IconArrowBigDownFilled /></div>
                     <div></div>
                     <div></div>
                     <div></div>
                     <div></div>
                     <div></div>
                 </section>
-                <section class="layout">
-                    <div class="top triangle"><IconTriangle  /></div>
-                    <div class="left square"><IconSquare  /></div>
-                    <div class="right circle"><IconCircle  /></div>
-                    <div class="down x"><IconX  /></div>
+                <section className="layout">
+                    <div className="top triangle"><IconTriangle  /></div>
+                    <div className="left square"><IconSquare  /></div>
+                    <div className="right circle"><IconCircle  /></div>
+                    <div className="down x"><IconX  /></div>
                     <div></div>
                     <div></div>
                     <div></div>

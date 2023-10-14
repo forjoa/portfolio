@@ -10,6 +10,12 @@ const Home = () => {
         <>
             <Header />
             <Console />
+            
+            <Console />
+            
+            <Console />
+            
+            <Console />
         </>
     )
 }

@@ -16,7 +16,7 @@
     background-color: var(--black);
     color: var(--white);
     border-radius: 30px;
-    padding: 30px;
+    padding: 80px 30px;
 }
 
 .consola-content h1 {
@@ -94,7 +94,7 @@
 .down,
 .left,
 .right {
-    border: 2.4px solid var(--black);
+    border: 2.6px solid var(--black);
     transition: all .4s ease;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .continue {
-    margin: 0px 0 40px 0;
+    margin-bottom: 40px;
     display: grid;
     place-items: center;
     position: relative;
@@ -128,6 +128,7 @@
 }
 
 @keyframes moveUpDown {
+
     0%,
     100% {
         transform: translateY(0);
@@ -137,5 +138,33 @@
     50% {
         transform: translateY(50px);
         filter: opacity(1);
+    }
+}
+
+@media (max-width: 900px) {
+    .consola {
+        margin: 50px auto;
+        width: 95%;
+        transform: translateX(7px);
+    }
+
+    .consola-content {
+        padding: 20px;
+    }
+
+    .controller {
+        width: 100%;
+    }
+
+    .top,
+    .down {
+        height: 50px;
+        width: 45px;
+    }
+
+    .left,
+    .right {
+        width: 50px;
+        height: 45px;
     }
 }
