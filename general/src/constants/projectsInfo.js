@@ -1,7 +1,7 @@
 // portraits
 import ToDo from '../img/projects/to-do-list.png'
 import TipCalculator from '../img/projects/tip-calculator.png'
-import Sunnyside from '../img/projects/sunnyside.png'
+import Dictionary from '../img/projects/dictionary.png'
 import CodeMatch from '../img/projects/codematch.png'
 import Marvel from '../img/projects/marvel.png'
 import ECommerce from '../img/projects/e-commerce.png'
@@ -33,15 +33,14 @@ const projects = [
         repository: 'https://github.com/forjoa/app-calculator/tree/main/tip-calculator-app-main'
     },
     {
-        image: Sunnyside,
-        title: 'Sunnyside',
-        description: 'Mi primera landing page con diseño responsive, acerca de una tienda ficticia.',
+        image: Dictionary,
+        title: 'Programming Dictionary',
+        description: 'Un dictionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
         languages: {
-            html: languagesInfo.html,
-            css: languagesInfo.css,
-            js: languagesInfo.js
+            rect: languagesInfo.react,
+            css: languagesInfo.css
         },
-        repository: 'https://github.com/forjoa/sunnyside/tree/main/sunnyside-agency-landing-page-main'
+        repository: 'https://dictionary-cyan-eight.vercel.app/'
     },
     {
         image: CodeMatch,

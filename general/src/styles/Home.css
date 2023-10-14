@@ -116,7 +116,7 @@
 .modern {
     font-family: 'Gloock', serif;
     color: var(--light-grey);
-    text-shadow: 0px 0px 40px var(--light-grey);
+    text-shadow: 0px 0px 40px var(--grey);
 }
 
 .continue {
