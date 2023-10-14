@@ -20,12 +20,16 @@ nav {
 }
 
 .panda-icon {
-    width: 55px;
+    width: 50px;
 }
 
 .panda-icon-a {
+    display: flex;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 22px;
     padding: 0;
     transition: all .4s;
+    gap: 5px;
 }
 
 .panda-icon-a:hover {

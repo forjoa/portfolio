@@ -1,5 +1,5 @@
 // icons
-import { IconArrowBigDownFilled, IconArrowBigLeftFilled, IconArrowBigRightFilled, IconArrowBigUpFilled, IconTriangle, IconSquare, IconCircle, IconX } from '@tabler/icons-react'
+import { IconArrowBigDownFilled, IconArrowBigLeftFilled, IconArrowBigRightFilled, IconArrowBigUpFilled, IconTriangle, IconSquare, IconCircle, IconX, IconArrowDown } from '@tabler/icons-react'
 
 const Console = () => {
     return (
@@ -30,6 +30,9 @@ const Console = () => {
                     <div></div>
                     <div></div>
                 </section>
+            </div>
+            <div className="continue">
+                <IconArrowDown size={48}/>
             </div>
         </div>
     )

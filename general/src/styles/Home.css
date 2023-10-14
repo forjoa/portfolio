@@ -36,7 +36,8 @@
         ". top ." 1fr "left . right" 1fr ". down ." 1fr / 1fr 1fr 1fr;
 }
 
-.top, .down {
+.top,
+.down {
     background-color: var(--light-grey);
     height: 80px;
     width: 55px;
@@ -46,7 +47,8 @@
     border-radius: 20px;
 }
 
-.left, .right {
+.left,
+.right {
     width: 80px;
     height: 55px;
     background-color: var(--light-grey);
@@ -88,12 +90,18 @@
     background-color: var(--pink);
 }
 
-.top, .down, .left, .right {
+.top,
+.down,
+.left,
+.right {
     border: 2.4px solid var(--black);
     transition: all .4s ease;
 }
 
-.top:hover, .down:hover, .left:hover, .right:hover{
+.top:hover,
+.down:hover,
+.left:hover,
+.right:hover {
     cursor: pointer;
     box-shadow: -7px 7px 0px var(--black);
 }
@@ -101,6 +109,7 @@
 .retro {
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 54px;
+    letter-spacing: -1px;
     color: var(--light-grey);
 }
 
@@ -108,4 +117,25 @@
     font-family: 'Gloock', serif;
     color: var(--light-grey);
     text-shadow: 0px 0px 40px var(--light-grey);
+}
+
+.continue {
+    margin: 40px 0;
+    display: grid;
+    place-items: center;
+    position: relative;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0%,
+    100% {
+        transform: translateY(0);
+        filter: opacity(0.4);
+    }
+
+    50% {
+        transform: translateY(50px);
+        filter: opacity(1);
+    }
 }

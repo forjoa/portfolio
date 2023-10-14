@@ -11,7 +11,7 @@ import '../styles/Header.css'
 const Header = () => {
     return (
         <header>
-            <Link to='/' className='panda-icon-a'><img src={pandaIcon} className='panda-icon' /></Link>
+            <Link to='/' className='panda-icon-a'><img src={pandaIcon} className='panda-icon' />Joaquin</Link>
             <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
