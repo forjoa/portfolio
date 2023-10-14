@@ -20,10 +20,10 @@ const Console = () => {
                     <div></div>
                 </section>
                 <section class="layout">
-                    <div class="top triangle"><IconTriangle color='white' /></div>
-                    <div class="left square"><IconSquare color='white' /></div>
-                    <div class="right circle"><IconCircle color='white' /></div>
-                    <div class="down x"><IconX color='white' /></div>
+                    <div class="top triangle"><IconTriangle  /></div>
+                    <div class="left square"><IconSquare  /></div>
+                    <div class="right circle"><IconCircle  /></div>
+                    <div class="down x"><IconX  /></div>
                     <div></div>
                     <div></div>
                     <div></div>
