@@ -1,6 +1,7 @@
 :root {
   --white: #fff;
   --light-grey: rgba(233, 233, 233, 0.75);
+  --grey: #ccc;
   --black: black;
   --red: rgb(255, 102, 102);
   --blue: rgb(124, 178, 232);
@@ -8,7 +9,32 @@
   --pink: rgb(255, 105, 248);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--grey);
+  border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: var(--grey);
+  border-radius: 10px;
+}
+
 * {
+  scrollbar-face-color: #ffffff;
+  scrollbar-shadow-color: #cccccc;
+  scrollbar-highlight-color: #cccccc;
+  scrollbar-3dlight-color: #cccccc;
+  scrollbar-darkshadow-color: #cccccc;
+  scrollbar-track-color: #ffffff;
+  scrollbar-arrow-color: #cccccc;
   box-sizing: border-box;
 }
 

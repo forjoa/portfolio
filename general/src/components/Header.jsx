@@ -2,8 +2,7 @@
 import pandaIcon from '../img/icons/panda-black-and-white-with-glasses.svg'
 
 // icons 
-import { IconAt } from '@tabler/icons-react'
-import { IconArrowUpRight } from '@tabler/icons-react'
+import { IconAt, IconArrowUpRight } from '@tabler/icons-react'
 
 // components
 import { Link } from 'react-router-dom'

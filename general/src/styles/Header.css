@@ -21,6 +21,7 @@ nav {
     border: 1.7px solid var(--black);
     border-radius: 30px;
     box-shadow: -7px 7px 0 var(--black);
+    background-color: var(--white);
 }
 
 .panda-icon {
@@ -78,7 +79,7 @@ a:hover {
         display: none;
     }
 
-    .header-list.open ul {
+    .header-list ul {
         background-color: var(--white);
         display: block;
         position: fixed;
@@ -89,5 +90,13 @@ a:hover {
         border-radius: 30px;
         box-shadow: -7px 7px 0px var(--black);
         padding: 20px;
+        opacity: 0;
+        transform: scale(0.2);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .header-list.open ul {
+        opacity: 1;
+        transform: scale(1);
     }
 }
