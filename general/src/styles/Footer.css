@@ -24,7 +24,7 @@ footer {
     margin-top: 20px;
 }
 
-.s-container p{
+.s-container p {
     display: flex;
     align-items: center;
     margin: 0;
@@ -34,4 +34,22 @@ footer {
     color: var(--dark-grey);
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 900px) {
+    footer {
+        padding: 30px;
+    }
+
+    .f-container {
+        flex-direction: column-reverse;
+    }
+
+    .f-container img {
+        margin: auto;
+    }
+
+    .f-container ul {
+        justify-content: start;
+    }
 }

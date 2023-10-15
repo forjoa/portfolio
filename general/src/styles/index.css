@@ -10,6 +10,44 @@
   --pink: rgb(255, 105, 248);
 }
 
+@font-face {
+  font-family: 'PP Neue Montreal Bold';
+  src: url('../fonts/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  src: url('../fonts/PPNeueMontreal-Book.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Italic';
+  src: url('../fonts/PPNeueMontreal-Italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Medium';
+  src: url('../fonts/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal SemiBold Italic';
+  src: url('../fonts/PPNeueMontreal-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Thin';
+  src: url('../fonts/PPNeueMontreal-Thin.woff') format('woff');
+  font-weight: 100;
+}
+
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -46,7 +84,7 @@ body {
   justify-content: center;
   align-items: center;
   scroll-behavior: smooth;
-  font-family: PP Neue Montreal;
+  font-family: 'PP Neue Montreal Medium';
   letter-spacing: 1.5px;
   font-weight: 500;
 }
@@ -80,7 +118,7 @@ a {
 }
 
 @media (max-width: 900px) {
-    body {
-      justify-content: start;
-    }
+  body {
+    justify-content: start;
+  }
 }
