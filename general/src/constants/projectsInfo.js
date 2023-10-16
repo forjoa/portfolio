@@ -19,12 +19,12 @@ const projects = [
             node: languagesInfo.node,
             sql: languagesInfo.sql,
         },
-        repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
+        // repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
     },
     {
         image: Dictionary,
         title: 'Programming Dictionary',
-        description: 'Un dictionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
+        description: 'Un diccionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
         languages: {
             rect: languagesInfo.react,
             css: languagesInfo.css

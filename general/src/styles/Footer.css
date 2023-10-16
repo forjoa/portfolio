@@ -42,7 +42,7 @@ footer {
     }
 
     .f-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .f-container img {
@@ -51,5 +51,10 @@ footer {
 
     .f-container ul {
         justify-content: start;
+        margin-top: 20px;
+    }
+
+    .s-container span {
+        margin-top: 20px;
     }
 }
