@@ -1,6 +1,7 @@
 // components
 import Header from './Header.jsx'
 import AboutItems from './AboutItems.jsx'
+import Footer from './Footer.jsx'
 
 // styles
 import '../styles/About.css'
@@ -10,6 +11,7 @@ const About = () => {
         <>
             <Header />
             <AboutItems />
+            <Footer />
         </>
     )
 }
