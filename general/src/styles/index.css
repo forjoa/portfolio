@@ -120,5 +120,6 @@ a {
 @media (max-width: 900px) {
   body {
     justify-content: start;
+    scale: 1;
   }
 }
