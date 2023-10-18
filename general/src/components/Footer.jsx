@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="f-container">
-                <img src={pandaIcon} alt='pandaIcon'/>
+                <img src={pandaIcon} alt='panda-icon'/>
                 <ul>
                     Social Media:
                     <li><a href='https://www.instagram.com/loveujoa/' target='_blank'><IconBrandInstagram /></a></li>
