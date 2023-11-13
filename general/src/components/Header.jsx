@@ -27,7 +27,7 @@ const Header = () => {
                 <div className="at" onClick={e => setUlOpen(!ulOpen)} style={{ display: 'none' }}><IconAt /></div>
                 <ul>
                     <li><a href='https://www.github.com/forjoa' target='_blank'>GitHub <IconArrowUpRight size={20} /></a></li>
-                    <li><a href='#' target='_blank'>Resume <IconArrowUpRight size={20} /></a></li>
+                    <li><a href='https://drive.google.com/file/d/1Oldh4ikBRAr75UJq3JsZ7cUPr1NxMBjb/view?usp=sharing' target='_blank'>Resume <IconArrowUpRight size={20} /></a></li>
                 </ul>
             </div>
         </header>
