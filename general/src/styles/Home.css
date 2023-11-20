@@ -141,6 +141,12 @@
     }
 }
 
+.consola-content img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
 @media (max-width: 900px) {
     .consola {
         margin: 50px auto;
