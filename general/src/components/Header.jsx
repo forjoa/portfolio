@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <header>
-            <Link to='/' className='panda-icon-a'><img src={pandaIcon} className='panda-icon' alt='panda-icon'/><span>JOAQUIN</span></Link>
+            <Link to='/' className='panda-icon-a'><img src={pandaIcon} className='panda-icon' alt='panda-icon'/><span>{ '{ JOAQUIN }' }</span></Link>
             <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
