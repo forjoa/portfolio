@@ -158,6 +158,10 @@
         padding: 20px;
     }
 
+    .slick-slider {
+        display: none !important;
+    }
+
     .controller {
         width: 100%;
     }
