@@ -11,6 +11,8 @@ import php from '../img/carrousel/php.png'
 import sql from '../img/carrousel/sql.png'
 import typescript from '../img/carrousel/typescript.png'
 
+// imports 
+
 const Console = () => {
     return (
         <div className="consola">
