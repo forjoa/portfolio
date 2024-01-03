@@ -12,31 +12,15 @@ import sql from '../img/carrousel/sql.png'
 import typescript from '../img/carrousel/typescript.png'
 
 // imports 
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import ScrollCarousel from 'scroll-carousel-react'
 
 const Console = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 1000, // Ajusta la velocidad de transición en milisegundos
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0, // Establece el tiempo de espera antes de cambiar la diapositiva
-        cssEase: 'linear', // Establece la transición de las imágenes
-        pauseOnHover: false, // Evita que el carrusel se detenga al pasar el mouse sobre él
-        draggable: false, // Deshabilita la capacidad de arrastrar con el mouse
-        swipe: false, // Deshabilita el deslizamiento táctil en dispositivos móviles
-        touchMove: false, // Deshabilita el movimiento táctil
-    }
 
     return (
         <div className="consola">
             <div className="consola-content">
                 <h1>I make web applications, <br />web design & <span className='retro'>retro</span> || <span className='modern'>modern</span> style</h1>
-                <Slider {...settings}>
+                <ScrollCarousel autoplay speed={1}>
                     <div>
                         <img src={react} alt="Imagen 1" />
                     </div>
@@ -61,7 +45,7 @@ const Console = () => {
                     <div>
                         <img src={typescript} alt="Imagen 3" />
                     </div>
-                </Slider>
+                </ScrollCarousel>
             </div>
             <div className="controller">
                 <section className="layout">

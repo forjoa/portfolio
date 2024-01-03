@@ -128,7 +128,6 @@
 }
 
 @keyframes moveUpDown {
-
     0%,
     100% {
         transform: translateY(0);
@@ -147,6 +146,10 @@
     height: auto;
 }
 
+.scroll-carousel-viewport {
+    margin-top: 20px;
+}
+
 @media (max-width: 900px) {
     .consola {
         margin: 50px auto;
@@ -158,7 +161,7 @@
         padding: 20px;
     }
 
-    .slick-slider {
+    .scroll-carousel-viewport {
         display: none !important;
     }
 
