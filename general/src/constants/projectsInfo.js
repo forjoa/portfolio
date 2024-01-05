@@ -5,6 +5,7 @@ import Dictionary from '../img/projects/dictionary.png'
 import CodeMatch from '../img/projects/codematch.png'
 import Marvel from '../img/projects/marvel.png'
 import ECommerce from '../img/projects/e-commerce.png'
+import FastTranslation from '../img/projects/fast-translation.png'
 
 // languages
 import languagesInfo from './languagesInfo.js'
@@ -26,10 +27,20 @@ const projects = [
         title: 'Programming Dictionary',
         description: 'Un diccionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
         languages: {
-            rect: languagesInfo.react,
+            react: languagesInfo.react,
             css: languagesInfo.css
         },
         repository: 'https://dictionary-cyan-eight.vercel.app/'
+    },
+    {
+        image: FastTranslation,
+        title: 'Fast Translation',
+        description: 'Un traductor con detector de idioma usando la API de Google Cloud Translation para simplificar la tarea de traducción',
+        languages: {
+            react: languagesInfo.react,
+            ts: languagesInfo.ts
+        },
+        repository: 'https://fast-translation-rose.vercel.app/'
     },
     {
         image: ToDo,
@@ -41,17 +52,6 @@ const projects = [
             sql: languagesInfo.sql,
         },
         repository: 'https://github.com/forjoa/to-do-list'
-    },
-    {
-        image: TipCalculator,
-        title: 'Tip Calculator',
-        description: 'Calculador de propinas en base a la cuenta total y al número de personas que pagarán, además se le agrega el procentaje respecto al total.',
-        languages: {
-            html: languagesInfo.html,
-            css: languagesInfo.css,
-            js: languagesInfo.js,
-        },
-        repository: 'https://github.com/forjoa/app-calculator/tree/main/tip-calculator-app-main'
     },
     {
         image: Marvel,
