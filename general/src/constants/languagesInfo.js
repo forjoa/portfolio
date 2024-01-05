@@ -6,6 +6,7 @@ import htmlIcon from '../img/icons/html.svg'
 import cssIcon from '../img/icons/css.svg'
 import jsIcon from '../img/icons/js.svg'
 import phpIcon from '../img/icons/php.svg'
+import typescriptIcon from '../img/icons/typescript.svg'
 
 const languagesInfo = {
     node: {
@@ -35,6 +36,10 @@ const languagesInfo = {
     php: {
         icon: phpIcon,
         name: 'PHP'
+    },
+    ts: {
+        icon: typescriptIcon,
+        name: 'TypeScript'
     }
 }
 
