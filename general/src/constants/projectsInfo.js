@@ -6,11 +6,37 @@ import Marvel from '../img/projects/marvel.png'
 import ECommerce from '../img/projects/e-commerce.png'
 import FastTranslation from '../img/projects/fast-translation.png'
 import VideoNet from '../img/projects/video-net.png'
+import Dashboard from '../img/projects/dashboard-next.png'
+import ECommerceNext from '../img/projects/e-commerce-next.png'
 
 // languages
 import languagesInfo from './languagesInfo.js'
 
 const projects = [
+  {
+    image: ECommerceNext,
+    title: 'E-commerce',
+    description:
+      'Tienda online completamente personalizable y manipulable en cuanto a productos y pedidos.',
+    languages: {
+      next: languagesInfo.next,
+      ts: languagesInfo.ts,
+      supabase: languagesInfo.supabase,
+    },
+    repository: 'https://github.com/forjoa/inventory-control',
+  },
+  {
+    image: Dashboard,
+    title: 'Dashboard',
+    description:
+      'Dashboard para controlar el inventario de nuestra e-commerce donde podremos ver además, los pedidos que tengamos, el estado de ellos, nuestros clientes y las analíticas de la tienda.',
+    languages: {
+      next: languagesInfo.next,
+      ts: languagesInfo.ts,
+      supabase: languagesInfo.supabase,
+    },
+    repository: 'https://github.com/forjoa/inventory-control',
+  },
   {
     image: VideoNet,
     title: 'VideoNet',
