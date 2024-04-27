@@ -59,7 +59,7 @@ const projects = [
       node: languagesInfo.node,
       sql: languagesInfo.sql,
     },
-    // repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
+    repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
   },
   {
     image: Dictionary,
