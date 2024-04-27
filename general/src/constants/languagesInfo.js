@@ -8,8 +8,13 @@ import jsIcon from '../img/icons/js.svg'
 import phpIcon from '../img/icons/php.svg'
 import typescriptIcon from '../img/icons/typescript.svg'
 import nextIcon from '../img/icons/next.svg'
+import supabaseIcon from '../img/icons/supabase.svg'
 
 const languagesInfo = {
+  supabase: {
+    icon: supabaseIcon,
+    name: 'Supabase',
+  },
   next: {
     icon: nextIcon,
     name: 'Next.js',
