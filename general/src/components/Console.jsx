@@ -2,14 +2,18 @@
 import { IconArrowBigDownFilled, IconArrowBigLeftFilled, IconArrowBigRightFilled, IconArrowBigUpFilled, IconTriangle, IconSquare, IconCircle, IconX, IconArrowDown } from '@tabler/icons-react'
 
 // languages
-import react from '../img/carrousel/react.png'
-import css from '../img/carrousel/css-3.png'
-import html from '../img/carrousel/html-5.png'
-import js from '../img/carrousel/js.png'
-import node from '../img/carrousel/node.png'
-import php from '../img/carrousel/php.png'
-import sql from '../img/carrousel/sql.png'
-import typescript from '../img/carrousel/typescript.png'
+import css from '../img/carrousel/css3.svg'
+import html from '../img/carrousel/html5.svg'
+import js from '../img/carrousel/javascript.svg'
+import typescript from '../img/carrousel/typescript.svg'
+import react from '../img/carrousel/react.svg'
+import node from '../img/carrousel/nodedotjs.svg'
+import express from '../img/carrousel/express.svg'
+import tailwind from '../img/carrousel/tailwindcss.svg'
+import mysql from '../img/carrousel/mysql.svg'
+import postgre from '../img/carrousel/postgresql.svg'
+import next from '../img/carrousel/nextdotjs.svg'
+import supabase from '../img/carrousel/supabase.svg'
 
 // imports 
 import ScrollCarousel from 'scroll-carousel-react'
@@ -20,10 +24,7 @@ const Console = () => {
         <div className="consola">
             <div className="consola-content">
                 <h1>I make web applications, <br />web design & <span className='retro'>retro</span> || <span className='modern'>modern</span> style</h1>
-                <ScrollCarousel autoplay speed={1}>
-                    <div>
-                        <img src={react} alt="Imagen 1" />
-                    </div>
+                <ScrollCarousel autoplay speed={1} margin={50}>
                     <div>
                         <img src={html} alt="Imagen 2" />
                     </div>
@@ -34,16 +35,31 @@ const Console = () => {
                         <img src={js} alt="Imagen 3" />
                     </div>
                     <div>
+                        <img src={typescript} alt="Imagen 3" />
+                    </div>
+                    <div>
+                        <img src={react} alt="Imagen 1" />
+                    </div>
+                    <div>
+                        <img src={next} alt="Imagen 3" />
+                    </div>
+                    <div>
                         <img src={node} alt="Imagen 3" />
                     </div>
                     <div>
-                        <img src={php} alt="Imagen 3" />
+                        <img src={express} alt="Imagen 3" />
                     </div>
                     <div>
-                        <img src={sql} alt="Imagen 3" />
+                        <img src={tailwind} alt="Imagen 3" />
                     </div>
                     <div>
-                        <img src={typescript} alt="Imagen 3" />
+                        <img src={supabase} alt="Imagen 3" />
+                    </div>
+                    <div>
+                        <img src={mysql} alt="Imagen 3" />
+                    </div>
+                    <div>
+                        <img src={postgre} alt="Imagen 3" />
                     </div>
                 </ScrollCarousel>
             </div>
