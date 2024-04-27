@@ -1,11 +1,11 @@
 // icons
 import { IconArrowRight } from '@tabler/icons-react'
 
-const Project = (props) => {
-    const { title, description, languages, image, repository } = props.project;
+const Project = ({ project }) => {
+    const { title, description, languages, image, repository } = project;
 
     return (
-        <div className="project" onClick={e => window.open(repository, '_blank')}>
+        <div className="project" onClick={() => window.open(repository, '_blank')}>
             <h2>{title}<IconArrowRight className='title-arrow'/></h2>
             <p>{description}</p>
             <div className="project-lang">
