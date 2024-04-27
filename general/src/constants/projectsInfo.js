@@ -17,7 +17,7 @@ const projects = [
     image: ECommerceNext,
     title: 'E-commerce',
     description:
-      'Tienda online completamente personalizable y manipulable en cuanto a productos y pedidos.',
+      'Fully customizable online store with full control over products and orders.',
     languages: {
       next: languagesInfo.next,
       ts: languagesInfo.ts,
@@ -29,7 +29,7 @@ const projects = [
     image: Dashboard,
     title: 'Dashboard',
     description:
-      'Dashboard para controlar el inventario de nuestra e-commerce donde podremos ver además, los pedidos que tengamos, el estado de ellos, nuestros clientes y las analíticas de la tienda.',
+      'Dashboard to control the inventory of our e-commerce where we can also see the orders we have, their status, our customers, and store analytics.',
     languages: {
       next: languagesInfo.next,
       ts: languagesInfo.ts,
@@ -41,7 +41,7 @@ const projects = [
     image: VideoNet,
     title: 'VideoNet',
     description:
-      'Red social exclusiva para creadores de contenido y consumidores en la plataforma Youtube.',
+      'Exclusive social network for content creators and consumers on the Youtube platform.',
     languages: {
       react: languagesInfo.react,
       node: languagesInfo.node,
@@ -53,19 +53,19 @@ const projects = [
     image: CodeMatch,
     title: 'Codematch',
     description:
-      'Mi trabajo final de grado, un sitio web donde los desarrolladores puedan mostrar sus trabajos, y los usuarios puedan contactar con ellos directamente. Aún se encuentra en construcción.',
+      'My final degree project, a website where developers can showcase their work, and users can contact them directly. It is still under construction.',
     languages: {
       react: languagesInfo.react,
       node: languagesInfo.node,
       sql: languagesInfo.sql,
     },
-    repository: 'https://github.com/forjoa/webs4u/tree/main/frontend'
+    repository: 'https://github.com/forjoa/webs4u/tree/main/frontend',
   },
   {
     image: Dictionary,
     title: 'Programming Dictionary',
     description:
-      'Un diccionario, con buscador incluido, que contiene (aún no) todos los terminos de programación ordenados alfabeticamente.',
+      'A dictionary, with included search, that contains (not yet) all programming terms alphabetically ordered.',
     languages: {
       react: languagesInfo.react,
       css: languagesInfo.css,
@@ -76,7 +76,7 @@ const projects = [
     image: FastTranslation,
     title: 'Fast Translation',
     description:
-      'Un traductor con detector de idioma usando la API de Google Cloud Translation para simplificar la tarea de traducción',
+      'A translator with language detector using the Google Cloud Translation API to simplify the translation task.',
     languages: {
       react: languagesInfo.react,
       ts: languagesInfo.ts,
@@ -87,7 +87,7 @@ const projects = [
     image: ToDo,
     title: 'To-Do List Web',
     description:
-      'Web app hecha con React.js, Node.js y SQL. Realizada para almacenar tareas con estados como "Completada" y "No completada".',
+      'Web app made with React.js, Node.js, and SQL. Created to store tasks with statuses like "Completed" and "Not completed".',
     languages: {
       node: languagesInfo.node,
       react: languagesInfo.react,
@@ -99,7 +99,7 @@ const projects = [
     image: Marvel,
     title: 'Marvel Characters',
     description:
-      'Web con toda la informacion de los personajes de Marvel, usando la API que Marvel brinda a los desarrolladores. Cuenta con una paginación y un buscador incluido.',
+      'Web with all the information about Marvel characters, using the API that Marvel provides to developers. It includes pagination and a search feature.',
     languages: {
       react: languagesInfo.react,
     },
@@ -107,9 +107,9 @@ const projects = [
   },
   {
     image: ECommerce,
-    title: 'Plantilla E-Commerce',
+    title: 'E-Commerce Template',
     description:
-      'Plantilla hecha a base de PHP realizada para cualquier comercio online, con una interfaz en la que se puede manejar el inventario de la tienda y la base de datos.',
+      'Template made based on PHP for any online store, with an interface to manage the store inventory and the database.',
     languages: {
       html: languagesInfo.html,
       css: languagesInfo.css,
