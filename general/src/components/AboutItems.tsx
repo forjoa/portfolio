@@ -1,4 +1,5 @@
 // images
+import React from 'react'
 import me from '../img/me/me.webp'
 import turist_me from '../img/me/turist.webp'
 import my_love from '../img/me/my_love.jpg'

@@ -1,8 +1,8 @@
 // components
-import Header from './Header.jsx'
-import Console from './Console.jsx'
-import Projects from './Projects.jsx'
-import Footer from './Footer.jsx'
+import Header from './Header.tsx'
+import Console from './Console.tsx'
+import Projects from './Projects.tsx'
+import Footer from './Footer.tsx'
 
 // styles
 import '../styles/Home.css'

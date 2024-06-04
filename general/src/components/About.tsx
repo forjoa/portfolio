@@ -1,4 +1,5 @@
 // components
+import React from 'react'
 import Header from './Header.jsx'
 import AboutItems from './AboutItems.jsx'
 import Footer from './Footer.jsx'
