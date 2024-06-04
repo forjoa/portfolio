@@ -37,6 +37,7 @@
 
 .about-container p {
     margin: 20px;
+    color: var(--black);
 }
 
 @media (max-width: 900px) {

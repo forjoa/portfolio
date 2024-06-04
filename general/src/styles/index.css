@@ -10,6 +10,14 @@
   --pink: rgb(255, 105, 248);
 }
 
+/* Dark theme adjustments */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: black;
+    --black: white;
+  }
+}
+
 @font-face {
   font-family: 'PP Neue Montreal Bold';
   src: url('../fonts/PPNeueMontreal-Bold.woff') format('woff');
@@ -87,6 +95,7 @@ body {
   font-family: 'PP Neue Montreal Medium';
   letter-spacing: 1.5px;
   font-weight: 500;
+  background-color: var(--white);
 }
 
 #root {
