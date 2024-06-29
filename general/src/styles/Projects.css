@@ -53,6 +53,13 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    color: var(--black);
+}
+
+.project-lang svg,
+.project-lang img {
+    color: var(--black);
+    stroke: var(--black) !important;
 }
 
 .project-lang div{
