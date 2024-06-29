@@ -78,37 +78,7 @@ const projects: PorjectI[] = [
       'A translator with language detector using the Google Cloud Translation API to simplify the translation task.',
     languages: [languagesInfo.react, languagesInfo.ts],
     repository: 'https://fast-translation-rose.vercel.app/',
-  },
-  {
-    image: ToDo,
-    title: 'To-Do List Web',
-    description:
-      'Web app made with React.js, Node.js, and SQL. Created to store tasks with statuses like "Completed" and "Not completed".',
-    languages: [languagesInfo.node, languagesInfo.react, languagesInfo.sql],
-    repository: 'https://github.com/forjoa/to-do-list',
-  },
-  {
-    image: Marvel,
-    title: 'Marvel Characters',
-    description:
-      'Web with all the information about Marvel characters, using the API that Marvel provides to developers. It includes pagination and a search feature.',
-    languages: [languagesInfo.react],
-    repository: 'https://github.com/forjoa/marvel',
-  },
-  {
-    image: ECommerce,
-    title: 'E-Commerce Template',
-    description:
-      'Template made based on PHP for any online store, with an interface to manage the store inventory and the database.',
-    languages: [
-      languagesInfo.html,
-      languagesInfo.css,
-      languagesInfo.js,
-      languagesInfo.php,
-      languagesInfo.sql,
-    ],
-    repository: 'https://github.com/forjoa/pekas',
-  },
+  }
 ]
 
 export default projects
