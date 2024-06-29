@@ -1,9 +1,6 @@
 // portraits
-import ToDo from '../img/projects/to-do-list.png'
 import Dictionary from '../img/projects/dictionary.png'
 import CodeMatch from '../img/projects/codematch.png'
-import Marvel from '../img/projects/marvel.png'
-import ECommerce from '../img/projects/e-commerce.png'
 import FastTranslation from '../img/projects/fast-translation.png'
 import VideoNet from '../img/projects/video-net.png'
 import Dashboard from '../img/projects/dashboard-next.png'
