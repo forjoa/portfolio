@@ -7,6 +7,7 @@ import Dashboard from '../img/projects/dashboard-next.png'
 import ECommerceNext from '../img/projects/e-commerce-next.png'
 import Noted from '../img/projects/noted.png'
 import Talk from '../img/projects/talk.png'
+import TrackShare from '../img/projects/trackshare.png'
 
 // languages
 import languagesInfo from './languagesInfo.ts'
@@ -27,6 +28,14 @@ const projects: PorjectI[] = [
       'Fully customizable online store with full control over products and orders.',
     languages: [languagesInfo.next, languagesInfo.ts, languagesInfo.supabase],
     repository: 'https://github.com/forjoa/inventory-control',
+  },
+  {
+    image: TrackShare,
+    title: 'TrackShare',
+    description:
+      'This is the easiest way to share your new music in your social media.',
+    languages: [languagesInfo.next, languagesInfo.ts, languagesInfo.supabase],
+    repository: 'https://trackshare-ruddy.vercel.app/',
   },
   {
     image: Dashboard,
@@ -75,7 +84,7 @@ const projects: PorjectI[] = [
       'A translator with language detector using the Google Cloud Translation API to simplify the translation task.',
     languages: [languagesInfo.react, languagesInfo.ts],
     repository: 'https://fast-translation-rose.vercel.app/',
-  }
+  },
 ]
 
 export default projects
