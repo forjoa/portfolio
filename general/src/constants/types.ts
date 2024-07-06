@@ -1,12 +1,12 @@
 interface LanguageInfoI {
-    icon: string
-    name: string 
+  icon: string
+  name: string
 }
 
 interface PorjectI {
-    image: any
-    title: string
-    description: string
-    languages: LanguageInfoI[]
-    repository: string
+  image: any
+  title: string
+  description: string
+  languages: LanguageInfoI[]
+  repository: string
 }
